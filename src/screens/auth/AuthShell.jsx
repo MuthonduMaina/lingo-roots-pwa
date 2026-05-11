@@ -29,8 +29,8 @@ export default function AuthShell({ title, subtitle, children }) {
             <LingoRootsLogo />
             <div style={{ width: 1, height: 36, background: 'rgba(255,255,255,0.2)' }} />
             <div style={{ textAlign: 'left' }}>
-              <p style={{ margin: 0, fontSize: 10, fontWeight: fontWeights.bold, color: 'rgba(255,255,255,0.45)', letterSpacing: '0.1em', textTransform: 'uppercase', lineHeight: 1.4, fontFamily: fonts.body }}>For</p>
-              <p style={{ margin: 0, fontSize: 10, fontWeight: fontWeights.bold, color: 'rgba(255,255,255,0.45)', letterSpacing: '0.1em', textTransform: 'uppercase', lineHeight: 1.4, fontFamily: fonts.body }}>Families</p>
+              <p style={{ margin: 0, fontSize: 10, fontWeight: fontWeights.bold, color: 'rgba(255,255,255,0.45)', letterSpacing: '0.1em', textTransform: 'uppercase', lineHeight: 1.4, fontFamily: fonts.body }}>Media</p>
+              <p style={{ margin: 0, fontSize: 10, fontWeight: fontWeights.bold, color: 'rgba(255,255,255,0.45)', letterSpacing: '0.1em', textTransform: 'uppercase', lineHeight: 1.4, fontFamily: fonts.body }}>Manager</p>
             </div>
           </div>
 
