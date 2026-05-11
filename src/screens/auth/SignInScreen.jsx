@@ -38,7 +38,7 @@ export default function SignInScreen() {
   const canSubmit = email && password && !loading
 
   return (
-    <AuthShell title="Welcome back">
+    <AuthShell>
       <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: spacing.md }}>
 
         <Field label="Email">
