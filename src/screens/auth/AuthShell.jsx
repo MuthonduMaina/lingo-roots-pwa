@@ -57,8 +57,8 @@ export default function AuthShell({ title, subtitle, children }) {
           </div>
         </div>
 
-        <p style={{ textAlign: 'center', fontSize: 11, color: colors.greyLight, marginTop: 20 }}>
-          Lingo Roots · For families everywhere
+        <p style={{ textAlign: 'center', fontSize: 11, color: colors.greyLight, marginTop: 20, fontFamily: fonts.body }}>
+          © {new Date().getFullYear()} Lingo Roots. All rights reserved.
         </p>
       </div>
     </div>
