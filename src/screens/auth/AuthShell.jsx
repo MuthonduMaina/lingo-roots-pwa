@@ -17,15 +17,21 @@ export default function AuthShell({ title, subtitle, children }) {
           boxShadow: '0 20px 60px rgba(57,56,147,0.12)',
           overflow: 'hidden',
         }}>
-          {/* Brand header — logo only, matching Media Manager style */}
+          {/* Brand header — logo + divider + app name, matching Media Manager style */}
           <div style={{
             background: colors.brand,
             padding: '28px 32px',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
+            gap: 16,
           }}>
             <LingoRootsLogo />
+            <div style={{ width: 1, height: 36, background: 'rgba(255,255,255,0.2)' }} />
+            <div style={{ textAlign: 'left' }}>
+              <p style={{ margin: 0, fontSize: 10, fontWeight: fontWeights.bold, color: 'rgba(255,255,255,0.45)', letterSpacing: '0.1em', textTransform: 'uppercase', lineHeight: 1.4, fontFamily: fonts.body }}>For</p>
+              <p style={{ margin: 0, fontSize: 10, fontWeight: fontWeights.bold, color: 'rgba(255,255,255,0.45)', letterSpacing: '0.1em', textTransform: 'uppercase', lineHeight: 1.4, fontFamily: fonts.body }}>Families</p>
+            </div>
           </div>
 
           {/* Form area */}
