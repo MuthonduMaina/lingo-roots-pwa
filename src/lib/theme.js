@@ -34,7 +34,7 @@ export const colors = {
 
 export const fonts = {
   kids:  "'Paytone One', sans-serif",  // all children-facing screens
-  body:  "'Jost', sans-serif",         // parent-facing, admin, onboarding
+  body:  "'Inter', sans-serif",        // parent-facing, admin, onboarding
 }
 
 export const fontWeights = {
